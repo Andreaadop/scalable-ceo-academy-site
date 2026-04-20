@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-00LNXTJLP7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-00LNXTJLP7');</script>
+<meta charset="UTF-8">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Scalable CEO Academy | Free for Restoration & Environmental Testing Owners</title>
+<meta name="description" content="On-demand video workshops, CEO Blueprint™ framework, and ready-to-use tools built for restoration and environmental testing company owners. Free to join.">
+<link rel="canonical" href="https://www.thescalableceoacademy.com" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.thescalableceoacademy.com" />
+<meta property="og:title" content="The Scalable CEO Academy | Free for Restoration & Environmental Testing Owners" />
+<meta property="og:description" content="On-demand video workshops and CEO framework built for restoration and environmental testing company owners. Free to join." />
+<meta property="og:image" content="https://assets.cdn.filesafe.space/GzqTMEz873YL4qtc5zto/media/67f43a0613578ef1323a6a3a.png" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+@font-face { font-family:'IvyPresto'; src:url('https://carolsurbey.com/brand_assets/fonnts.com-Ivy-Presto-Headline-.otf') format('opentype'); font-weight:400; font-style:normal; }
+@font-face { font-family:'IvyPresto'; src:url('https://carolsurbey.com/brand_assets/fonnts.com-Ivy-Presto-Headline-Semi-Bold.otf') format('opentype'); font-weight:600; font-style:normal; }
+
+:root {
+  --navy:#1A3759; --navy-dark:#0d2035;
+  --teal:#3C7D96; --teal-mid:#2E7D7F; --teal-light:#4a9ab5;
+  --sage:#A8B86F; --sage-dark:#8fa357;
+  --light-sage:#D1E4E2; --mint:#E9F8F7; --cream:#F8F6F0;
+  --white:#FFFFFF; --dark:#1A1A1A; --grey:#444444; --grey-light:#6b7280;
+  --serif:'IvyPresto',Georgia,serif; --sans:'Montserrat',system-ui,sans-serif;
+  --ease-out:cubic-bezier(0.22,1,0.36,1); --ease-spring:cubic-bezier(0.34,1.56,0.64,1);
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:var(--sans);color:var(--grey);background:var(--white);line-height:1.75;-webkit-font-smoothing:antialiased;overflow-x:hidden;}
+img{display:block;max-width:100%;}
+a{text-decoration:none;}
+button{cursor:pointer;font-family:var(--sans);}
+.container{max-width:1140px;margin:0 auto;padding:0 40px;}
+
+/* REVEAL */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity 0.7s var(--ease-out),transform 0.7s var(--ease-out);}
+.reveal.in{opacity:1;transform:translateY(0);}
+.reveal-stagger>*{opacity:0;transform:translateY(28px);transition:opacity 0.6s var(--ease-out),transform 0.6s var(--ease-out);}
+.reveal-stagger>*.in{opacity:1;transform:translateY(0);}
+.reveal-stagger>*:nth-child(1){transition-delay:0ms;}
+.reveal-stagger>*:nth-child(2){transition-delay:80ms;}
+.reveal-stagger>*:nth-child(3){transition-delay:160ms;}
+.reveal-stagger>*:nth-child(4){transition-delay:240ms;}
+.reveal-stagger>*:nth-child(5){transition-delay:320ms;}
+.reveal-left{opacity:0;transform:translateX(-32px);transition:opacity 0.8s var(--ease-out),transform 0.8s var(--ease-out);}
+.reveal-left.in{opacity:1;transform:translateX(0);}
+.reveal-right{opacity:0;transform:translateX(32px);transition:opacity 0.8s var(--ease-out),transform 0.8s var(--ease-out);}
+.reveal-right.in{opacity:1;transform:translateX(0);}
+
+/* BUTTONS */
+.btn{display:inline-flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:700;font-size:0.9rem;letter-spacing:0.04em;padding:16px 32px;border-radius:6px;transition:background 0.2s,transform 0.2s var(--ease-spring),box-shadow 0.2s;border:none;}
+.btn-sage{background:var(--sage);color:white;box-shadow:0 4px 16px rgba(168,184,111,0.3);}
+.btn-sage:hover{background:var(--sage-dark);transform:translateY(-2px);box-shadow:0 10px 28px rgba(168,184,111,0.45);}
+.btn-sage:active{transform:translateY(0);}
+.btn-outline-white{background:transparent;color:white;border:1.5px solid rgba(255,255,255,0.4);}
+.btn-outline-white:hover{background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.8);transform:translateY(-2px);}
+.btn-lg{padding:18px 40px;font-size:0.95rem;border-radius:8px;}
+
+/* HERO */
+@keyframes fadeUp{from{opacity:0;transform:translateY(32px);}to{opacity:1;transform:translateY(0);}}
+@keyframes gradshift{0%{background-position:0% 50%;}50%{background-position:100% 50%;}100%{background-position:0% 50%;}}
+
+.hero-section{position:relative;overflow:hidden;background:var(--navy-dark);min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:48px 0 72px;}
+.hero-bg{position:absolute;inset:0;background:url('https://carolsurbey.com/brand_assets/academy.webp') center/cover no-repeat;opacity:0.1;}
+.hero-overlay{position:absolute;inset:0;background:radial-gradient(ellipse 80% 70% at 70% 50%,rgba(60,125,150,0.2) 0%,transparent 60%),radial-gradient(ellipse 60% 60% at 10% 80%,rgba(168,184,111,0.1) 0%,transparent 50%),linear-gradient(160deg,rgba(13,32,53,0.97) 0%,rgba(26,55,89,0.88) 50%,rgba(13,32,53,0.98) 100%);}
+.hero-grain{position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");background-size:256px;opacity:0.5;pointer-events:none;}
+.hero-content{position:relative;z-index:1;}
+.hero-grid{display:grid;grid-template-columns:1fr 400px;gap:72px;align-items:center;}
+
+.hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(168,184,111,0.12);border:1px solid rgba(168,184,111,0.28);border-radius:20px;padding:6px 14px;font-size:0.68rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--sage);margin-bottom:28px;animation:fadeUp 0.6s var(--ease-out) 0.1s both;}
+.hero-eyebrow-dot{width:6px;height:6px;border-radius:50%;background:var(--sage);flex-shrink:0;}
+.hero-h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.8rem,5.5vw,4.8rem);color:white;line-height:1.04;letter-spacing:-0.025em;margin-bottom:28px;animation:fadeUp 0.7s var(--ease-out) 0.25s both;}
+.hero-h1 em{font-style:italic;color:var(--teal-light);}
+.hero-sub{font-size:1.05rem;line-height:1.82;color:rgba(255,255,255,0.68);max-width:540px;margin-bottom:40px;animation:fadeUp 0.7s var(--ease-out) 0.4s both;}
+.hero-ctas{display:flex;align-items:center;gap:16px;flex-wrap:wrap;animation:fadeUp 0.7s var(--ease-out) 0.55s both;}
+.hero-trust{margin-top:16px;font-size:0.74rem;color:rgba(255,255,255,0.35);display:flex;align-items:center;gap:8px;animation:fadeUp 0.7s var(--ease-out) 0.68s both;}
+.hero-trust::before{content:'';width:20px;height:1px;background:rgba(255,255,255,0.2);}
+
+/* Hero right — cards */
+.hero-cards{display:flex;flex-direction:column;gap:14px;animation:fadeUp 0.9s var(--ease-out) 0.35s both;}
+.hcard-big{background:rgba(255,255,255,0.055);border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:28px 30px;backdrop-filter:blur(8px);transition:background 0.25s,border-color 0.25s,transform 0.25s var(--ease-out);}
+.hcard-big:hover{background:rgba(255,255,255,0.09);border-color:rgba(60,125,150,0.3);transform:translateY(-3px);}
+.hcard-num{font-family:var(--serif);font-size:3rem;font-weight:600;color:white;line-height:1;margin-bottom:4px;}
+.hcard-num sup{font-size:1.4rem;color:var(--sage);}
+.hcard-label{font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4);}
+.hcard-sm{background:rgba(60,125,150,0.14);border:1px solid rgba(60,125,150,0.22);border-radius:14px;padding:18px 22px;display:flex;align-items:center;gap:14px;transition:background 0.25s,transform 0.25s var(--ease-out);}
+.hcard-sm:hover{background:rgba(60,125,150,0.22);transform:translateY(-2px);}
+.hcard-sm-icon{width:40px;height:40px;border-radius:9px;background:rgba(60,125,150,0.28);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--teal-light);}
+.hcard-sm-title{font-size:0.86rem;font-weight:700;color:white;margin-bottom:3px;}
+.hcard-sm-sub{font-size:0.72rem;color:rgba(255,255,255,0.45);}
+.hcard-sm-sage{background:rgba(168,184,111,0.14);border-color:rgba(168,184,111,0.2);}
+.hcard-sm-sage:hover{background:rgba(168,184,111,0.22);}
+.hcard-sm-sage .hcard-sm-icon{background:rgba(168,184,111,0.25);color:var(--sage);}
+
+/* TICKER */
+@keyframes tickLeft{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+.ticker{background:var(--sage);padding:12px 0;overflow:hidden;}
+.ticker-track{display:flex;width:max-content;animation:tickLeft 26s linear infinite;}
+.tick-item{flex-shrink:0;padding:0 36px;font-size:0.7rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:white;display:flex;align-items:center;gap:20px;}
+.tick-dot{width:4px;height:4px;border-radius:50%;background:rgba(255,255,255,0.45);flex-shrink:0;}
+
+/* PROBLEM */
+.problem-section{padding:104px 0;background:white;}
+.problem-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;}
+.section-eyebrow{font-size:0.7rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--teal);display:block;margin-bottom:14px;}
+.section-h2{font-family:var(--serif);font-weight:600;font-size:clamp(2rem,3.5vw,3rem);color:var(--navy);line-height:1.08;letter-spacing:-0.02em;margin-bottom:22px;}
+.section-h2 em{font-style:italic;}
+.section-body{color:var(--grey);line-height:1.85;margin-bottom:16px;}
+
+.trap-list{list-style:none;margin-top:28px;display:flex;flex-direction:column;gap:10px;}
+.trap-item{display:flex;align-items:flex-start;gap:12px;padding:14px 18px;background:rgba(185,50,50,0.03);border:1px solid rgba(185,50,50,0.1);border-radius:8px;}
+.trap-x{flex-shrink:0;width:22px;height:22px;border-radius:50%;background:rgba(185,50,50,0.08);display:flex;align-items:center;justify-content:center;font-size:0.62rem;color:rgba(160,45,45,0.65);font-weight:700;margin-top:2px;}
+.trap-text{font-size:0.9rem;color:var(--dark);font-weight:500;line-height:1.55;}
+
+.shift-cards{display:flex;flex-direction:column;gap:18px;padding-top:8px;}
+.shift-card{background:var(--cream);border-radius:14px;padding:26px 30px;position:relative;overflow:hidden;transition:transform 0.25s var(--ease-out),box-shadow 0.25s;}
+.shift-card::before{content:'';position:absolute;top:0;left:0;bottom:0;width:4px;background:var(--teal);}
+.shift-card:hover{transform:translateY(-4px);box-shadow:0 16px 44px rgba(26,55,89,0.1);}
+.shift-icon{width:40px;height:40px;border-radius:8px;background:rgba(60,125,150,0.1);display:flex;align-items:center;justify-content:center;color:var(--teal);margin-bottom:14px;}
+.shift-title{font-family:var(--serif);font-size:1.05rem;color:var(--navy);font-weight:600;margin-bottom:6px;}
+.shift-body{font-size:0.875rem;color:var(--grey);line-height:1.72;}
+
+/* INSIDE */
+.inside-section{padding:104px 0;background:var(--cream);}
+.section-header{text-align:center;margin-bottom:60px;}
+.section-header p{color:var(--grey);max-width:560px;margin:0 auto;line-height:1.82;}
+
+/* Course grid — 3 cols, 9 cards */
+.course-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.ccard{background:white;border-radius:14px;padding:28px 26px;border:1px solid rgba(209,228,226,0.7);box-shadow:0 3px 14px rgba(26,55,89,0.05);position:relative;overflow:hidden;display:flex;flex-direction:column;gap:12px;transition:transform 0.3s var(--ease-out),box-shadow 0.3s,border-color 0.3s;}
+.ccard::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;transform:scaleX(0.15);transform-origin:left;transition:transform 0.4s var(--ease-out);}
+.ccard:hover{transform:translateY(-5px);box-shadow:0 20px 50px rgba(26,55,89,0.12);border-color:transparent;}
+.ccard:hover::before{transform:scaleX(1);}
+.ccard-workshop::before{background:var(--teal);}
+.ccard-tools::before{background:var(--sage);}
+.ccard-challenge::before{background:var(--navy);}
+.ccard-summit::before{background:var(--teal-mid);}
+.ccard-tag{display:inline-flex;align-items:center;gap:6px;font-size:0.62rem;font-weight:700;letter-spacing:0.13em;text-transform:uppercase;padding:4px 10px;border-radius:20px;width:fit-content;}
+.tag-workshop{background:rgba(60,125,150,0.1);color:var(--teal);}
+.tag-tools{background:rgba(168,184,111,0.12);color:var(--sage-dark);}
+.tag-challenge{background:rgba(26,55,89,0.08);color:var(--navy);}
+.tag-summit{background:rgba(46,125,127,0.1);color:var(--teal-mid);}
+.tag-masterclass{background:rgba(60,125,150,0.08);color:var(--teal);}
+.ccard h3{font-family:var(--serif);font-size:1.1rem;color:var(--navy);font-weight:600;line-height:1.2;margin:0;}
+.ccard-body{font-size:0.84rem;color:var(--grey);line-height:1.72;flex:1;}
+.ccard-free{display:inline-flex;align-items:center;gap:5px;font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--sage-dark);margin-top:auto;}
+.ccard-free::before{content:'✓';font-size:0.7rem;}
+
+/* Featured wide card */
+.ccard-wide{grid-column:span 2;}
+.ccard-wide .ccard-body{max-width:520px;}
+
+/* Count badge in hero */
+.hero-count-badge{display:inline-flex;align-items:baseline;gap:4px;}
+.hero-count-badge .count-num{font-family:var(--serif);font-size:3rem;font-weight:600;color:white;line-height:1;}
+.hero-count-badge .count-label{font-size:0.82rem;font-weight:600;color:rgba(255,255,255,0.6);}
+
+/* BLUEPRINT */
+.blueprint-section{padding:104px 0;background:linear-gradient(-45deg,#091c2e,#1a3759,#1d4e64,#0d2440,#152f4e,#1a3759);background-size:500% 500%;animation:gradshift 18s ease infinite;position:relative;overflow:hidden;}
+.blueprint-section::before{content:'';position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");background-size:256px;opacity:0.4;pointer-events:none;}
+.blueprint-header{text-align:center;margin-bottom:72px;position:relative;}
+.blueprint-header .section-eyebrow{color:var(--sage);}
+.blueprint-header .section-h2{color:white;}
+.blueprint-header p{color:rgba(255,255,255,0.62);max-width:560px;margin:0 auto;line-height:1.82;}
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);position:relative;gap:2px;}
+.pillar{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);padding:48px 40px;position:relative;overflow:hidden;transition:background 0.3s,border-color 0.3s;}
+.pillar:first-child{border-radius:16px 0 0 16px;}
+.pillar:last-child{border-radius:0 16px 16px 0;}
+.pillar:hover{background:rgba(255,255,255,0.08);border-color:rgba(168,184,111,0.28);}
+.pillar-big-num{font-family:var(--serif);font-size:5rem;font-weight:600;line-height:1;color:rgba(255,255,255,0.06);position:absolute;top:20px;right:24px;pointer-events:none;}
+.pillar-tag{font-size:0.67rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--teal-light);margin-bottom:12px;display:block;}
+.pillar h3{font-family:var(--serif);font-size:1.6rem;color:white;font-weight:600;line-height:1.15;margin-bottom:16px;letter-spacing:-0.01em;}
+.pillar-body{font-size:0.875rem;color:rgba(255,255,255,0.6);line-height:1.8;margin-bottom:22px;}
+.pillar-list{list-style:none;display:flex;flex-direction:column;gap:8px;}
+.pillar-list li{font-size:0.78rem;color:rgba(255,255,255,0.42);display:flex;align-items:center;gap:8px;}
+.pillar-list li::before{content:'→';color:var(--teal-light);font-size:0.68rem;flex-shrink:0;}
+
+/* WHO IT'S FOR */
+.who-section{padding:104px 0;background:white;}
+.who-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
+.who-checks{list-style:none;margin-top:8px;display:flex;flex-direction:column;}
+.who-item{padding:16px 0;border-bottom:1px solid rgba(209,228,226,0.5);display:flex;align-items:flex-start;gap:16px;}
+.who-item:first-child{border-top:1px solid rgba(209,228,226,0.5);}
+.check-c{flex-shrink:0;width:26px;height:26px;border-radius:50%;background:rgba(60,125,150,0.1);border:1.5px solid rgba(60,125,150,0.22);display:flex;align-items:center;justify-content:center;color:var(--teal);margin-top:2px;}
+.who-text-item{font-size:0.92rem;font-weight:500;color:var(--dark);line-height:1.6;}
+.who-text-item strong{color:var(--navy);}
+.who-img-wrap{position:relative;}
+.who-photo{width:100%;border-radius:18px;object-fit:cover;aspect-ratio:4/5;object-position:top center;box-shadow:0 32px 80px rgba(26,55,89,0.2),0 8px 24px rgba(26,55,89,0.1);}
+.who-badge{position:absolute;bottom:-18px;left:-18px;background:var(--navy);color:white;border-radius:14px;padding:18px 22px;box-shadow:0 8px 32px rgba(26,55,89,0.28);max-width:220px;}
+.badge-tag{font-size:0.62rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--sage);margin-bottom:6px;}
+.badge-quote{font-family:var(--serif);font-size:0.95rem;color:white;line-height:1.4;font-style:italic;}
+
+/* CAROL */
+.carol-section{padding:104px 0;background:var(--mint);position:relative;overflow:hidden;}
+.carol-section::before{content:'';position:absolute;right:-120px;top:-120px;width:500px;height:500px;border-radius:50%;background:radial-gradient(ellipse,rgba(60,125,150,0.07) 0%,transparent 70%);pointer-events:none;}
+.carol-grid{display:grid;grid-template-columns:380px 1fr;gap:80px;align-items:center;}
+.carol-portrait{width:100%;border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;object-fit:cover;aspect-ratio:3/4;object-position:top center;box-shadow:0 32px 80px rgba(26,55,89,0.2);max-height:480px;}
+.carol-quote{font-family:var(--serif);font-size:clamp(1.25rem,2.5vw,1.75rem);color:var(--navy);font-weight:400;font-style:italic;line-height:1.42;margin-bottom:24px;letter-spacing:-0.01em;}
+.carol-quote::before{content:'\201C';}
+.carol-quote::after{content:'\201D';}
+.carol-bio{font-size:0.92rem;color:var(--grey);line-height:1.82;margin-bottom:28px;}
+.carol-creds{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px;}
+.carol-cred{background:rgba(26,55,89,0.07);border-radius:6px;padding:7px 14px;font-size:0.7rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--navy);}
+
+/* FINAL CTA */
+.final-cta{padding:120px 0;background:var(--navy-dark);text-align:center;position:relative;overflow:hidden;}
+.final-cta::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 50% 100%,rgba(60,125,150,0.15) 0%,transparent 60%),radial-gradient(ellipse 40% 40% at 80% 20%,rgba(168,184,111,0.07) 0%,transparent 60%);pointer-events:none;}
+.final-cta::after{content:'';position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");background-size:256px;opacity:0.35;pointer-events:none;}
+.final-inner{position:relative;z-index:1;}
+.final-cta .section-eyebrow{color:var(--sage);margin-bottom:20px;}
+.final-h2{font-family:var(--serif);font-size:clamp(2.4rem,5vw,4rem);color:white;font-weight:600;line-height:1.05;letter-spacing:-0.025em;margin-bottom:20px;max-width:800px;margin-left:auto;margin-right:auto;}
+.final-h2 em{font-style:italic;color:var(--teal-light);}
+.final-sub{color:rgba(255,255,255,0.58);max-width:520px;margin:0 auto 48px;font-size:1rem;line-height:1.82;}
+.final-btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-bottom:24px;}
+.free-pills{display:flex;align-items:center;justify-content:center;gap:24px;flex-wrap:wrap;}
+.free-pill{font-size:0.72rem;color:rgba(255,255,255,0.32);display:flex;align-items:center;gap:6px;}
+.free-pill::before{content:'✓';color:var(--sage);font-size:0.65rem;}
+
+/* FOOTER */
+footer{background:var(--navy-dark);}
+.footer-body{padding:60px 0 48px;border-bottom:1px solid rgba(255,255,255,0.08);}
+.footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:48px;}
+.footer-logo{height:40px;margin-bottom:16px;}
+.footer-tagline{color:rgba(255,255,255,0.45);font-size:0.85rem;line-height:1.65;max-width:280px;}
+.footer-col h4{color:rgba(255,255,255,0.9);font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:20px;}
+.footer-col a{display:block;color:rgba(255,255,255,0.5);font-size:0.85rem;padding:5px 0;transition:color 0.2s,padding-left 0.2s;}
+.footer-col a:hover{color:var(--sage);padding-left:4px;}
+.footer-social{display:flex;gap:10px;margin-top:24px;}
+.social-btn{width:36px;height:36px;border-radius:50%;border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.5);transition:border-color 0.2s,color 0.2s,transform 0.2s var(--ease-spring);}
+.social-btn:hover{border-color:var(--sage);color:var(--sage);transform:translateY(-2px);}
+.footer-bottom{padding:16px 0;text-align:center;}
+.footer-bottom p{color:rgba(255,255,255,0.3);font-size:0.75rem;}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .container{padding:0 24px;}
+  .hero-section{min-height:auto;padding:60px 0 40px;}
+  .hero-grid{grid-template-columns:1fr;gap:40px;}
+  .hero-cards{flex-direction:row;flex-wrap:wrap;}
+  .hcard-big{flex:1;min-width:140px;}
+  .hcard-sm{flex:1;min-width:180px;}
+  .hero-h1{font-size:clamp(2.4rem,9vw,3.4rem);}
+  .problem-grid,.who-grid,.carol-grid{grid-template-columns:1fr;gap:48px;}
+  .course-grid,.pillars{grid-template-columns:1fr;}
+  .ccard-wide{grid-column:span 1;}
+  .pillar:first-child,.pillar{border-radius:16px 16px 0 0;}
+  .pillar:last-child{border-radius:0 0 16px 16px;}
+  .pillar{border-radius:0;}
+  .pillars .pillar:only-child{border-radius:16px;}
+  .footer-grid{grid-template-columns:1fr;}
+  .who-img-wrap{order:-1;}
+  .who-photo{max-height:320px;aspect-ratio:16/9;object-position:center 15%;}
+  .who-badge{bottom:12px;left:12px;}
+  .carol-portrait{max-height:300px;aspect-ratio:16/9;border-radius:16px;}
+  .final-btns{flex-direction:column;align-items:center;}
+  .btn-lg{width:100%;max-width:340px;}
+  .problem-section,.inside-section,.blueprint-section,.who-section,.carol-section,.final-cta{padding:72px 0;}
+  .hero-ctas{flex-direction:column;align-items:flex-start;}
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header style="padding:20px 40px;display:flex;justify-content:center;align-items:center;background:var(--navy-dark);">
+  <a href="https://carolsurbey.com" target="_blank" rel="noopener">
+    <img src="https://carolsurbey.com/brand_assets/white-logo1.svg" alt="Carol Surbey Consulting" style="height:40px;width:auto;">
+  </a>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero-section">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-grain"></div>
+  <div class="container hero-content">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-eyebrow"><span class="hero-eyebrow-dot"></span>Free to Join · Restoration &amp; Environmental Testing Owners</div>
+        <h1 class="hero-h1">You're the Best<br>Employee Your Business<br>Has Ever Had.<br><em>That's the Problem.</em></h1>
+        <p class="hero-sub">The Scalable CEO Academy is an on-demand library of video workshops, masterclasses, tools, and challenges built specifically for restoration and environmental testing company owners ready to stop being the bottleneck — and start being the owner.</p>
+        <div class="hero-ctas">
+          <a href="https://thescalableceoacademy.com/login" class="btn btn-sage btn-lg" target="_blank" rel="noopener">Join the Academy — It's Free</a>
+          <a href="#inside" class="btn btn-outline-white btn-lg">What's Inside ↓</a>
+        </div>
+        <div class="hero-trust">No credit card. No cohort start dates. Learn on your own schedule.</div>
+      </div>
+      <div class="hero-cards">
+        <div class="hcard-big">
+          <div class="hcard-num">100<sup>%</sup></div>
+          <div class="hcard-label">Free · No credit card · No deadlines</div>
+        </div>
+        <div class="hcard-sm">
+          <div class="hcard-sm-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+          </div>
+          <div>
+            <div class="hcard-sm-title">Video Workshops</div>
+            <div class="hcard-sm-sub">Industry-specific, on demand</div>
+          </div>
+        </div>
+        <div class="hcard-sm">
+          <div class="hcard-sm-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <div>
+            <div class="hcard-sm-title">Tools &amp; Templates</div>
+            <div class="hcard-sm-sub">Download and use immediately</div>
+          </div>
+        </div>
+        <div class="hcard-sm hcard-sm-sage">
+          <div class="hcard-sm-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <div>
+            <div class="hcard-sm-title">CEO Blueprint™</div>
+            <div class="hcard-sm-sub">Clarity → Structure → Leadership</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-track">
+    <span class="tick-item">Water Damage Restoration<span class="tick-dot"></span></span>
+    <span class="tick-item">Environmental Testing<span class="tick-dot"></span></span>
+    <span class="tick-item">Fire &amp; Smoke Mitigation<span class="tick-dot"></span></span>
+    <span class="tick-item">Industrial Hygiene Firms<span class="tick-dot"></span></span>
+    <span class="tick-item">Mold Remediation<span class="tick-dot"></span></span>
+    <span class="tick-item">US &amp; Canada<span class="tick-dot"></span></span>
+    <span class="tick-item">$300K–$2M Revenue<span class="tick-dot"></span></span>
+    <span class="tick-item">Owner-Operated Businesses<span class="tick-dot"></span></span>
+    <span class="tick-item">Water Damage Restoration<span class="tick-dot"></span></span>
+    <span class="tick-item">Environmental Testing<span class="tick-dot"></span></span>
+    <span class="tick-item">Fire &amp; Smoke Mitigation<span class="tick-dot"></span></span>
+    <span class="tick-item">Industrial Hygiene Firms<span class="tick-dot"></span></span>
+    <span class="tick-item">Mold Remediation<span class="tick-dot"></span></span>
+    <span class="tick-item">US &amp; Canada<span class="tick-dot"></span></span>
+    <span class="tick-item">$300K–$2M Revenue<span class="tick-dot"></span></span>
+    <span class="tick-item">Owner-Operated Businesses<span class="tick-dot"></span></span>
+  </div>
+</div>
+
+<!-- ===== PROBLEM SECTION ===== -->
+<section class="problem-section">
+  <div class="container">
+    <div class="problem-grid">
+      <div>
+        <span class="section-eyebrow reveal">The Operator Trap</span>
+        <h2 class="section-h2 reveal">Every decision<br>runs through you.<br><em>That's not leadership.</em></h2>
+        <p class="section-body reveal">You built something real. But somewhere along the way, "owning a business" became the same thing as being the hardest-working person in it. You're the dispatcher, the estimator, the quality checker, the closer, and the person everyone calls when something goes wrong.</p>
+        <p class="section-body reveal">The Academy is built around one idea: the skills that got you here are not the skills that will scale this.</p>
+        <ul class="trap-list reveal-stagger">
+          <li class="trap-item"><span class="trap-x">✕</span><span class="trap-text">You can't take a week off without things falling apart</span></li>
+          <li class="trap-item"><span class="trap-x">✕</span><span class="trap-text">Revenue grows but so does your workload — the ratio never changes</span></li>
+          <li class="trap-item"><span class="trap-x">✕</span><span class="trap-text">Your team does good work, but only when you're watching</span></li>
+          <li class="trap-item"><span class="trap-x">✕</span><span class="trap-text">You have no one to hand the day-to-day off to</span></li>
+          <li class="trap-item"><span class="trap-x">✕</span><span class="trap-text">Generic business advice doesn't translate to your industry</span></li>
+        </ul>
+      </div>
+      <div class="shift-cards">
+        <div class="shift-card reveal">
+          <div class="shift-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div class="shift-title">Reclaim your time</div>
+          <div class="shift-body">Build the systems and team structure so the business operates without you making every call. The CEO Blueprint™ shows you exactly how.</div>
+        </div>
+        <div class="shift-card reveal">
+          <div class="shift-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+          </div>
+          <div class="shift-title">Stop trading time for money</div>
+          <div class="shift-body">Pricing, cash flow, and revenue models that scale — without requiring more of your hours. The CEO Profit Shift workshop covers it directly.</div>
+        </div>
+        <div class="shift-card reveal">
+          <div class="shift-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <div class="shift-title">Build a team that leads itself</div>
+          <div class="shift-body">Role clarity, accountability structures, and leadership frameworks that work in technical service businesses — not startups or retail.</div>
+        </div>
+        <div class="shift-card reveal">
+          <div class="shift-icon" style="background:rgba(168,184,111,0.1);color:var(--sage-dark);">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <div class="shift-title">Industry-specific, not generic</div>
+          <div class="shift-body">Every workshop, tool, and framework is built for restoration and environmental testing companies. Not SaaS. Not retail. Your business.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INSIDE ===== -->
+<section id="inside" class="inside-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-eyebrow reveal">Everything Inside the Academy</span>
+      <h2 class="section-h2 reveal" style="margin-bottom:14px;">9 programs. All free.<br>All built for your industry.</h2>
+      <p class="reveal">The moment you register you get access to all of this — on demand, at your own pace. No upsells. No paywalls. Everything below is yours.</p>
+    </div>
+    <div class="course-grid reveal-stagger">
+
+      <!-- 1 — Lead Flow System (wide) -->
+      <div class="ccard ccard-workshop ccard-wide">
+        <span class="ccard-tag tag-workshop">
+          <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+          Video Series
+        </span>
+        <h3>The Scalable CEO Lead Flow System</h3>
+        <p class="ccard-body">From invisible to in-demand. A complete roadmap for building predictable visibility, consistent leads, and client demand that doesn't depend on hustle. Includes the Simple Lead Engine system and a Monthly Lead Gen rhythm — CEO-friendly and sustainable.</p>
+        <span class="ccard-free">Included Free</span>
+      </div>
+
+      <!-- 2 — Masterclasses -->
+      <div class="ccard ccard-workshop">
+        <span class="ccard-tag tag-masterclass">
+          <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          Masterclass
+        </span>
+        <h3>Masterclasses: Deep-Dive CEO Trainings</h3>
+        <p class="ccard-body">Extended deep-dive sessions on the critical CEO transitions — leadership identity, systems thinking, and scaling decisions. More depth than a workshop, less friction than a course.</p>
+        <span class="ccard-free">Included Free</span>
+      </div>
+
+      <!-- 3 — CEO Growth Tools -->
+      <div class="ccard ccard-tools">
+        <span class="ccard-tag tag-tools">
+          <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          Tools
+        </span>
+        <h3>CEO Growth Tools</h3>
+        <p class="ccard-body">High-impact, implementation-ready tools: templates, workflows, checklists, diagnostic tools, and decision frameworks. Built to create clarity and forward momentum — fast.</p>
+        <span class="ccard-free">Included Free</span>
+      </div>
+
+      <!-- 4 — CEO Profit Shift -->
+      <div class="ccard ccard-workshop">
+        <span class="ccard-tag tag-workshop">
+          <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+          Workshop
+        </span>
+        <h3>The CEO Profit Shift</h3>
+        <p class="ccard-body">Why profitability must come first. A step-by-step financial reset: Smart Profit Allocation System, weekly and quarterly financial rituals, cash flow clarity, and a simple money rhythm that supports growth without the chaos.</p>
+        <span class="ccard-free">Included Free</span>
+      </div>
+
+      <!-- 5 — Time Leverage -->
+      <div class="ccard ccard-workshop">
+        <span class="ccard-tag tag-workshop">
+          <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Workshop
+        </span>
+        <h3>Time Leverage &amp; Operating Rhythms</h3>
+        <p class="ccard-body">Reclaim your time. Redesign your week. Build a Time Leverage System, a Weekly CEO Rhythm, and delegation upgrades that remove you as the bottleneck — without losing flexibility.</p>
+        <span class="ccard-free">Included Free</span>
+      </div>
+
+      <!-- 6 — Lead With Authority Summit -->
+      <div class="ccard ccard-summit">
+        <span class="ccard-tag tag-summit">
+          <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          Summit
+        </span>
+        <h3>Lead With Authority Summit</h3>
+        <p class="ccard-body">Industry-leading experts on building authentic authority, creating visibility that converts, leveraging partnerships and platforms — all without sacrificing your time or energy.</p>
+        <span class="ccard-free">Included Free</span>
+      </div>
+
+      <!-- 7 — Free Tools Library -->
+      <div class="ccard ccard-tools">
+        <span class="ccard-tag tag-tools">
+          <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          Resource Library
+        </span>
+        <h3>Free Tools &amp; Resources Library</h3>
+        <p class="ccard-body">The exact tools real business owners use to grow — every single day. A growing library of downloadable resources, templates, and frameworks available immediately on registration.</p>
+        <span class="ccard-free">Included Free</span>
+      </div>
+
+      <!-- 8 — Leadership Challenge -->
+      <div class="ccard ccard-challenge">
+        <span class="ccard-tag tag-challenge">
+          <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 010-5H6"/><path d="M18 9h1.5a2.5 2.5 0 000-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0012 0V2z"/></svg>
+          Challenge
+        </span>
+        <h3>The Leadership Transformational Challenge</h3>
+        <p class="ccard-body">Break the Teeter Totter Leadership Trap — the back-and-forth between running your business and leading it. A structured challenge designed to shift you out of operator mode for good.</p>
+        <span class="ccard-free">Included Free</span>
+      </div>
+
+      <!-- 9 — Teeter Totter Course -->
+      <div class="ccard ccard-challenge">
+        <span class="ccard-tag tag-challenge">
+          <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+          Course
+        </span>
+        <h3>Teeter Totter Leadership Course</h3>
+        <p class="ccard-body">Transform from hands-on operator into a strategic, visionary CEO. Mindset, frameworks, and tools to step into the leadership role your business actually needs from you.</p>
+        <span class="ccard-free">Included Free</span>
+      </div>
+
+    </div>
+
+    <!-- Bottom CTA inside section -->
+    <div class="reveal" style="text-align:center;margin-top:52px;">
+      <a href="https://thescalableceoacademy.com/login" class="btn btn-sage btn-lg" target="_blank" rel="noopener">Get Free Access to All 9 Programs →</a>
+      <p style="font-size:0.78rem;color:var(--grey-light);margin-top:14px;">No credit card. No cohort dates. Access everything the moment you register.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BLUEPRINT PILLARS ===== -->
+<section class="blueprint-section">
+  <div class="container">
+    <div class="blueprint-header">
+      <span class="section-eyebrow reveal">The CEO Blueprint™</span>
+      <h2 class="section-h2 reveal">Three levers. Every bottleneck<br>traces back to one of them.</h2>
+      <p class="reveal">The CEO Blueprint™ is the organizing framework for everything inside the Academy. Before you start, a short diagnostic tells you which lever to pull first.</p>
+    </div>
+    <div class="pillars reveal-stagger">
+      <div class="pillar">
+        <div class="pillar-big-num">01</div>
+        <span class="pillar-tag">Lever One</span>
+        <h3>Clarity</h3>
+        <p class="pillar-body">Most owners are working hard in every direction at once. Clarity is about defining exactly where you're going, what role you actually play, and what your business needs from you as CEO — not as a technician.</p>
+        <ul class="pillar-list">
+          <li>CEO role definition</li>
+          <li>Vision and 12-month priorities</li>
+          <li>Identifying your personal bottleneck</li>
+          <li>Revenue model clarity</li>
+        </ul>
+      </div>
+      <div class="pillar">
+        <div class="pillar-big-num">02</div>
+        <span class="pillar-tag">Lever Two</span>
+        <h3>Structure</h3>
+        <p class="pillar-body">Without operational infrastructure, growth just means more chaos. Structure is where you build the systems, processes, and team design that let work get done without running through you.</p>
+        <ul class="pillar-list">
+          <li>SOP development and documentation</li>
+          <li>Org design and reporting lines</li>
+          <li>Estimating and job management systems</li>
+          <li>Financial dashboards and KPIs</li>
+        </ul>
+      </div>
+      <div class="pillar">
+        <div class="pillar-big-num">03</div>
+        <span class="pillar-tag">Lever Three</span>
+        <h3>Leadership</h3>
+        <p class="pillar-body">Systems alone don't scale people. Leadership covers the transition from hands-on operator to someone who leads, delegates, hires well, and builds a team that performs without constant supervision.</p>
+        <ul class="pillar-list">
+          <li>Hiring and onboarding frameworks</li>
+          <li>Accountability and performance culture</li>
+          <li>Promoting from within — the SIC role</li>
+          <li>CEO-level decision making</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHO IT'S FOR ===== -->
+<section class="who-section">
+  <div class="container">
+    <div class="who-grid">
+      <div>
+        <span class="section-eyebrow reveal">Who It's For</span>
+        <h2 class="section-h2 reveal">Built for one audience.<br>Yours.</h2>
+        <p class="section-body reveal">The Academy is not a generic business program. It's built specifically for owners of restoration and environmental testing companies in the US and Canada. If this sounds like you, you're in the right place.</p>
+        <ul class="who-checks reveal-stagger">
+          <li class="who-item">
+            <div class="check-c"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <div class="who-text-item">You own a <strong>restoration company</strong> — water damage, fire, mold, mitigation — doing $300K–$2M</div>
+          </li>
+          <li class="who-item">
+            <div class="check-c"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <div class="who-text-item">You own an <strong>environmental testing or industrial hygiene firm</strong> and you're ready to scale past yourself</div>
+          </li>
+          <li class="who-item">
+            <div class="check-c"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <div class="who-text-item">You're <strong>indispensable in your own business</strong> — and you know that's a problem, not a badge of honour</div>
+          </li>
+          <li class="who-item">
+            <div class="check-c"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <div class="who-text-item">You want to <strong>learn on your own schedule</strong> — not sit in live sessions or wait for a cohort to start</div>
+          </li>
+          <li class="who-item">
+            <div class="check-c"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <div class="who-text-item">You've tried <strong>generic business advice</strong> and it doesn't translate — you need something built for your industry</div>
+          </li>
+          <li class="who-item">
+            <div class="check-c"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <div class="who-text-item">You're ready to <strong>implement</strong>, not just consume — you want frameworks you can use this week</div>
+          </li>
+        </ul>
+      </div>
+      <div class="who-img-wrap reveal-right">
+        <img src="https://carolsurbey.com/brand_assets/academy.webp" alt="Restoration business owners in a strategy session" class="who-photo" loading="lazy">
+        <div class="who-badge">
+          <div class="badge-tag">Built for owners doing</div>
+          <div class="badge-quote">$300K–$2M in restoration &amp; environmental testing</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CAROL ===== -->
+<section class="carol-section">
+  <div class="container">
+    <div class="carol-grid">
+      <div class="reveal-left">
+        <img src="https://carolsurbey.com/brand_assets/carol-surbey-portrait-1.webp" alt="Carol Surbey" class="carol-portrait" loading="lazy">
+      </div>
+      <div class="reveal-right">
+        <span class="carol-eyebrow">About Carol Surbey</span>
+        <blockquote class="carol-quote">I built the Academy because the owners I work with kept telling me the same thing — they couldn't find business training that actually applied to restoration and environmental testing. So I built it from scratch, using the same frameworks that transformed their companies.</blockquote>
+        <p class="carol-bio">Carol Surbey is a Business Strategy Coach who works exclusively with restoration and environmental testing company owners across the US and Canada. Her CEO Blueprint™ framework helps owners build the operational infrastructure that lets their business grow past them.</p>
+        <p class="carol-bio">The Academy is the self-paced version of that work — the same frameworks, tools, and workshops, available on demand without the 1-1 coaching investment.</p>
+        <div class="carol-creds">
+          <span class="carol-cred">Certified Business Coach</span>
+          <span class="carol-cred">CEO Blueprint™ Creator</span>
+          <span class="carol-cred">US &amp; Canada</span>
+          <span class="carol-cred">Restoration &amp; EnvTest Specialist</span>
+        </div>
+        <div style="margin-top:32px;">
+          <a href="https://thescalableceoacademy.com/login" class="btn btn-sage" target="_blank" rel="noopener">Access Carol's Frameworks Free →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FINAL CTA ===== -->
+<section class="final-cta">
+  <div class="container final-inner">
+    <span class="section-eyebrow reveal">The Scalable CEO Academy</span>
+    <h2 class="final-h2 reveal">Your business should be able to<br>run <em>without you</em> for a week.<br>Let's build that.</h2>
+    <p class="final-sub reveal">Free access to the CEO Blueprint™, video workshops, and tools built for restoration and environmental testing company owners. No pitch. No upsell. Just the frameworks.</p>
+    <div class="final-btns reveal">
+      <a href="https://thescalableceoacademy.com/login" class="btn btn-sage btn-lg" target="_blank" rel="noopener">Join the Academy — It's Free</a>
+    </div>
+    <div class="free-pills reveal">
+      <span class="free-pill">No credit card required</span>
+      <span class="free-pill">Self-paced access</span>
+      <span class="free-pill">Built for restoration &amp; environmental testing</span>
+      <span class="free-pill">US &amp; Canada</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="footer-body">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <img src="https://carolsurbey.com/brand_assets/white-logo1.svg" alt="Carol Surbey Consulting" class="footer-logo" loading="lazy">
+          <p class="footer-tagline">Helping restoration and environmental testing company owners build businesses that run without them. US &amp; Canada.</p>
+          <div class="footer-social">
+            <a href="https://www.linkedin.com/in/carol-surbey-bmsc-6682155/" class="social-btn" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+            <a href="https://www.facebook.com/CarolSurbeyConsulting" class="social-btn" target="_blank" rel="noopener" aria-label="Facebook"><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+            <a href="https://www.instagram.com/carol_surbey_consulting/" class="social-btn" target="_blank" rel="noopener" aria-label="Instagram"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+            <a href="https://www.youtube.com/@CarolSurbey" class="social-btn" target="_blank" rel="noopener" aria-label="YouTube"><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.97C18.88 4 12 4 12 4s-6.88 0-8.59.45A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.4a2.78 2.78 0 001.95-1.97A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <a href="https://carolsurbey.com/">Home</a>
+          <a href="https://carolsurbey.com/coaching">Coaching Overview</a>
+          <a href="https://carolsurbey.com/coaching-for-restoration-companies">For Restoration Companies</a>
+          <a href="https://carolsurbey.com/coaching-for-environmental-testing-companies">For Environmental Testing</a>
+          <a href="https://carolsurbey.com/scalable-ceo-academy">Scalable CEO Academy</a>
+          <a href="https://carolsurbey.com/about">About Carol</a>
+          <a href="https://carolsurbey.com/free-tools">Free Tools</a>
+          <a href="https://carolsurbey.com/scorecard">Scorecard</a>
+          <a href="https://carolsurbey.com/contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>The Academy</h4>
+          <a href="https://thescalableceoacademy.com/login" target="_blank" rel="noopener">Join — It's Free</a>
+          <a href="#inside">What's Inside</a>
+          <a href="https://carolsurbey.com/free-tools">Free Scorecard</a>
+          <a href="https://carolsurbey.com/contact">1-1 Coaching</a>
+          <div style="margin-top:28px;">
+            <h4>Contact</h4>
+            <a href="mailto:carol@carolsurbey.com">carol@carolsurbey.com</a>
+            <a href="tel:+17789490567">(778) 949-0567</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© 2026 Carol Surbey Consulting. All rights reserved. · Prince George, BC, Canada</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* SCROLL REVEAL */
+const io = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    const el = entry.target;
+    el.classList.add('in');
+    io.unobserve(el);
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => io.observe(el));
+document.querySelectorAll('.reveal-stagger').forEach(wrap => {
+  wrap.querySelectorAll(':scope > *').forEach(child => io.observe(child));
+});
+</script>
+
+</body>
+</html>
